@@ -71,7 +71,6 @@ h1 {
 
 ```
 const imageContainer = document.getElementById("img-container");
-const loader = document.getElementById("loader");
 
 let photosArray = [];
 
