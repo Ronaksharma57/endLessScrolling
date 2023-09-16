@@ -12,10 +12,8 @@
     <title>Endless Scroll</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <h1>ENDLESS SCROLL</h1>
-
     <div class="img-container" id="img-container"></div>
     <script defer src="index.js"></script>
   </body>
@@ -44,8 +42,7 @@ h1 {
   margin-bottom: 45px;
   font-size: 40px;
   letter-spacing: 1px;
-  /* reflection */
-  /* -webkit-box-reflect: below 0px linear-gradient(to bottom,rgba(0,0,0,0.0),rgba(0,0,0,0.4)); */
+ 
 }
 
 .img-container {
@@ -57,7 +54,6 @@ h1 {
   margin-top: 5px;
 }
 
-/* media query */
 
 @media screen and (max-width: 600px) {
   h1 {
